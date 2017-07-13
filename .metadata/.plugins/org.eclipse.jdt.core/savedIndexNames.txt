@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+G:\Android\CurriculumSchedule\.metadata\.plugins\org.eclipse.jdt.core
+3623307951.index
+3831469751.index
+3604472530.index
+3035665291.index
+301529319.index
+2472060449.index
+1580453017.index
+173143963.index

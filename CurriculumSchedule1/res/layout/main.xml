@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tbl_Class"
+        android:layout_width="294dp"
+        android:layout_height="271dp"
+        android:layout_below="@+id/spn_Day"
+        android:layout_centerHorizontal="true" >
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txt_Title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/Title1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_PS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/Change"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spn_Day"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt_Title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_Class"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_PS"
+        android:layout_alignLeft="@+id/tbl_Class"
+        android:layout_marginLeft="20dp"
+        android:text="@string/Title1" />
+
+    <Button
+        android:id="@+id/btn_Test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_Class"
+        android:layout_alignBottom="@+id/btn_Class"
+        android:layout_alignRight="@+id/tbl_Class"
+        android:layout_marginRight="27dp"
+        android:text="@string/Title2" />
+
+    <TableLayout
+        android:id="@+id/tbl_Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Class"
+        android:layout_alignLeft="@+id/btn_Class"
+        android:layout_alignRight="@+id/tbl_Class"
+        android:layout_alignTop="@+id/spn_Day" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
